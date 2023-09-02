@@ -1,13 +1,12 @@
 package io.github.redstoneparadox.tinkersarsenal.traits.armortraits;
 
 import c4.conarm.lib.traits.AbstractArmorTrait;
+import java.util.Objects;
+import java.util.Random;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
-
-import java.util.Objects;
-import java.util.Random;
 
 /**
  * Created by RedstoneParadox on 8/16/2018.

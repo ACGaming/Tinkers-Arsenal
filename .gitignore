@@ -12,17 +12,11 @@ out
 *.iws
 *.iml
 .idea
-.idea/
 
 # gradle
-build/
-.gradle/
-gradlew/
+build
+.gradle
 
 # other
-eclipse/
-run/
-lib/
-out/
-
-*.kra~
+eclipse
+run

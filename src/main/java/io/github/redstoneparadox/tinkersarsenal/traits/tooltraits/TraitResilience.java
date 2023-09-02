@@ -1,11 +1,10 @@
 package io.github.redstoneparadox.tinkersarsenal.traits.tooltraits;
 
+import java.util.Random;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import slimeknights.tconstruct.library.traits.AbstractTrait;
-
-import java.util.Random;
 
 /**
  * Created by RedstoneParadox on 8/15/2018.

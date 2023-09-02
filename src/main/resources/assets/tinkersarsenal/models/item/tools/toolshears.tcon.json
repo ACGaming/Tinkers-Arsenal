@@ -1,7 +1,7 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tinkersarsenal:items/shears/handle",
-    "layer1": "tinkersarsenal:items/shears/blade"
-  }
+      "parent": "item/generated",
+      "textures": {
+            "layer0": "tinkersarsenal:items/shears/handle",
+            "layer1": "tinkersarsenal:items/shears/blade"
+      }
 }

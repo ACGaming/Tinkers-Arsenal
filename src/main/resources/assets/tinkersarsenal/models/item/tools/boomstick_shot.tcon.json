@@ -1,7 +1,7 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tinkersarsenal:items/parts/bullet",
-    "layer1": "tinkersarsenal:items/parts/bullet_shell"
-  }
+      "parent": "item/generated",
+      "textures": {
+            "layer0": "tinkersarsenal:items/parts/bullet",
+            "layer1": "tinkersarsenal:items/parts/bullet_shell"
+      }
 }

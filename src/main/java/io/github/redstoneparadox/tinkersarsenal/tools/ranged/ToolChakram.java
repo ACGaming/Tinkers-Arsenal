@@ -1,5 +1,7 @@
 package io.github.redstoneparadox.tinkersarsenal.tools.ranged;
 
+import java.util.List;
+import javax.annotation.Nonnull;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -7,9 +9,6 @@ import slimeknights.tconstruct.library.entity.EntityProjectileBase;
 import slimeknights.tconstruct.library.materials.Material;
 import slimeknights.tconstruct.library.tools.ProjectileNBT;
 import slimeknights.tconstruct.library.tools.ranged.ProjectileCore;
-
-import javax.annotation.Nonnull;
-import java.util.List;
 
 /**
  * Created by RedstoneParadox on 9/21/2018.

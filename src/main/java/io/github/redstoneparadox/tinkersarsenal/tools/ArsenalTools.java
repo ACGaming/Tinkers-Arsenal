@@ -5,6 +5,8 @@ import io.github.redstoneparadox.tinkersarsenal.geometry.Vector2;
 import io.github.redstoneparadox.tinkersarsenal.tools.ranged.AmmoBoomstickShot;
 import io.github.redstoneparadox.tinkersarsenal.tools.ranged.ToolBoomstick;
 import io.github.redstoneparadox.tinkersarsenal.tools.utility.ToolShears;
+import java.util.ArrayList;
+import java.util.List;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -18,9 +20,6 @@ import slimeknights.tconstruct.library.tools.Pattern;
 import slimeknights.tconstruct.library.tools.ToolCore;
 import slimeknights.tconstruct.library.tools.ToolPart;
 import slimeknights.tconstruct.tools.TinkerTools;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by RedstoneParadox on 7/31/2018.

@@ -1,5 +1,7 @@
 package io.github.redstoneparadox.tinkersarsenal.tools.utility;
 
+import java.util.List;
+import java.util.Random;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
@@ -20,9 +22,6 @@ import slimeknights.tconstruct.library.tools.TinkerToolCore;
 import slimeknights.tconstruct.library.tools.ToolNBT;
 import slimeknights.tconstruct.library.utils.ToolHelper;
 import slimeknights.tconstruct.tools.TinkerTools;
-
-import java.util.List;
-import java.util.Random;
 
 /**
  * Created by RedstoneParadox on 10/8/2018.

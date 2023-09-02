@@ -1,14 +1,13 @@
 package io.github.redstoneparadox.tinkersarsenal.traits.armortraits;
 
 import c4.conarm.lib.traits.AbstractArmorTrait;
+import java.util.Objects;
+import java.util.Random;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
-
-import java.util.Objects;
-import java.util.Random;
 
 /**
  * Created by RedstoneParadox on 8/17/2018.

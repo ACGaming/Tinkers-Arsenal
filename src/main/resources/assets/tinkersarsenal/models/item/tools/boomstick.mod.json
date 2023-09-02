@@ -1,21 +1,19 @@
-{
-  "textures": {
-    "bane_spider": "tinkersarsenal:items/boomstick/mod_bane_spider",
-    "beheading": "tinkersarsenal:items/boomstick/mod_beheading",
-    "diamond": "tinkersarsenal:items/boomstick/mod_diamond",
-    "emerald": "tinkersarsenal:items/boomstick/mod_emerald",
-    "fiery": "tinkersarsenal:items/boomstick/mod_fiery",
-    "glowing": "tinkersarsenal:items/boomstick/mod_glowing",
-    "haste": "tinkersarsenal:items/boomstick/mod_haste",
-    "knockback": "tinkersarsenal:items/boomstick/mod_knockback",
-    "mending_moss": "tinkersarsenal:items/boomstick/mod_mending_moss",
-    "necrotic": "tinkersarsenal:items/boomstick/mod_necrotic",
-    "reinforced": "tinkersarsenal:items/boomstick/mod_reinforced",
-    "sharpness": "tinkersarsenal:items/boomstick/mod_sharpness",
-    "shulking": "tinkersarsenal:items/boomstick/mod_shulking",
-    "silk": "tinkersarsenal:items/boomstick/mod_silk",
-    "smite": "tinkersarsenal:items/boomstick/mod_smite",
-    "soulbound": "tinkersarsenal:items/boomstick/mod_soulbound",
-    "web": "tinkersarsenal:items/boomstick/mod_web"
-  }
-}
+{"textures": {
+      "silk": "tinkersarsenal:items/boomstick/mod_silk",
+      "necrotic": "tinkersarsenal:items/boomstick/mod_necrotic",
+      "fiery": "tinkersarsenal:items/boomstick/mod_fiery",
+      "smite": "tinkersarsenal:items/boomstick/mod_smite",
+      "bane_spider": "tinkersarsenal:items/boomstick/mod_bane_spider",
+      "knockback": "tinkersarsenal:items/boomstick/mod_knockback",
+      "haste": "tinkersarsenal:items/boomstick/mod_haste",
+      "mending_moss": "tinkersarsenal:items/boomstick/mod_mending_moss",
+      "reinforced": "tinkersarsenal:items/boomstick/mod_reinforced",
+      "beheading": "tinkersarsenal:items/boomstick/mod_beheading",
+      "diamond": "tinkersarsenal:items/boomstick/mod_diamond",
+      "glowing": "tinkersarsenal:items/boomstick/mod_glowing",
+      "soulbound": "tinkersarsenal:items/boomstick/mod_soulbound",
+      "web": "tinkersarsenal:items/boomstick/mod_web",
+      "shulking": "tinkersarsenal:items/boomstick/mod_shulking",
+      "sharpness": "tinkersarsenal:items/boomstick/mod_sharpness",
+      "emerald": "tinkersarsenal:items/boomstick/mod_emerald"
+}}

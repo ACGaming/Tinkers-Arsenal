@@ -1,137 +1,303 @@
 {
-    "textures": {
-        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
-        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
-        "layer2": "tinkersarsenal:items/boomstick/bayonet",
-        "broken1": "tinkersarsenal:items/boomstick/broken_boomstick_barrel"
-    },
-  "overrides": [
-    {
-      "predicate": {
-        "pulling": 1,
-        "pull": 0
-      },
       "textures": {
-        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
-        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
-        "layer2": "tinkersarsenal:items/boomstick/bayonet"
+            "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
+            "broken1": "tinkersarsenal:items/boomstick/broken_boomstick_barrel",
+            "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
+            "layer2": "tinkersarsenal:items/boomstick/bayonet"
       },
-      "modifier_suffix": "1",
       "display": {
-        "firstperson_righthand": {
-          "rotation": [ 0, 0, 25 ],
-          "translation": [ 1.13, 2.2, 1.13],
-          "scale": [ 0.68, 0.68, 0.68 ]
-        },
-        "firstperson_lefthand": {
-          "rotation": [ 0, 0, -25 ],
-          "translation": [ 1.13, 2.2, 1.13],
-          "scale": [ 0.68, 0.68, 0.68 ]
-        }
-      }
-    },
-    {
-      "predicate": {
-        "pulling": 1,
-        "pull": 0.5
+            "firstperson_righthand": {
+                  "rotation": [
+                        0,
+                        -90,
+                        25
+                  ],
+                  "translation": [
+                        1.13,
+                        3.2,
+                        1.13
+                  ],
+                  "scale": [
+                        0.68,
+                        0.68,
+                        0.68
+                  ]
+            },
+            "thirdperson_lefthand": {
+                  "rotation": [
+                        -90,
+                        -260,
+                        45
+                  ],
+                  "translation": [
+                        -1,
+                        2,
+                        -3
+                  ],
+                  "scale": [
+                        0.875,
+                        0.875,
+                        0.75
+                  ]
+            },
+            "firstperson_lefthand": {
+                  "rotation": [
+                        0,
+                        90,
+                        -25
+                  ],
+                  "translation": [
+                        1.13,
+                        3.2,
+                        1.13
+                  ],
+                  "scale": [
+                        0.68,
+                        0.68,
+                        0.68
+                  ]
+            },
+            "thirdperson_righthand": {
+                  "rotation": [
+                        -90,
+                        260,
+                        -45
+                  ],
+                  "translation": [
+                        -1,
+                        2,
+                        -3
+                  ],
+                  "scale": [
+                        0.875,
+                        0.875,
+                        0.75
+                  ]
+            }
       },
-      "textures": {
-        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
-        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
-        "layer2": "tinkersarsenal:items/boomstick/bayonet"
-      },
-      "modifier_suffix": "2",
-      "display": {
-        "firstperson_righthand": {
-          "rotation": [ 0, 0, 25 ],
-          "translation": [ 1.13, 2.2, 1.13],
-          "scale": [ 0.68, 0.68, 0.68 ]
-        },
-        "firstperson_lefthand": {
-          "rotation": [ 0, 0, -25 ],
-          "translation": [ 1.13, 2.2, 1.13],
-          "scale": [ 0.68, 0.68, 0.68 ]
-        }
-      }
-    },
-    {
-      "predicate": {
-        "pulling": 1,
-        "pull": 0.999
-      },
-      "textures": {
-        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
-        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
-        "layer2": "tinkersarsenal:items/boomstick/bayonet"
-      },
-      "modifier_suffix": "3",
-      "display": {
-        "firstperson_righthand": {
-          "rotation": [ 0, 0, 25 ],
-          "translation": [ 1.13, 2.2, 1.13],
-          "scale": [ 0.68, 0.68, 0.68 ]
-        },
-        "firstperson_lefthand": {
-          "rotation": [ 0, 0, -25 ],
-          "translation": [ 1.13, 3.2, 1.13],
-          "scale": [ 0.68, 0.68, 0.68 ]
-        }
-      }
-    },
-    {
-      "predicate": {
-        "loaded": 1
-      },
-      "textures": {
-        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
-        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
-        "layer2": "tinkersarsenal:items/boomstick/bayonet"
-      },
-      "modifier_suffix": "3",
-      "display": {
-        "thirdperson_righthand": {
-          "rotation": [ -90, 260, -45 ],
-          "translation": [ -1, 2, -3 ],
-          "scale": [ 0.875, 0.875, 0.75 ]
-        },
-        "thirdperson_lefthand": {
-          "rotation": [ -90, -260, 45 ],
-          "translation": [ -1, 2, -3 ],
-          "scale": [ 0.875, 0.875, 0.75 ]
-        },
-        "firstperson_righthand": {
-          "rotation": [ 0, -90, 25 ],
-          "translation": [ 1.13, 2.2, 1.13],
-          "scale": [ 0.68, 0.68, 0.68 ]
-        },
-        "firstperson_lefthand": {
-          "rotation": [ 0, 90, -25 ],
-          "translation": [ 1.13, 2.2, 1.13],
-          "scale": [ 0.68, 0.68, 0.68 ]
-        }
-      }
-    }
-  ],
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [ -90, 260, -45 ],
-      "translation": [ -1, 2, -3 ],
-      "scale": [ 0.875, 0.875, 0.75 ]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [ -90, -260, 45 ],
-      "translation": [ -1, 2, -3 ],
-      "scale": [ 0.875, 0.875, 0.75 ]
-    },
-    "firstperson_righthand": {
-      "rotation": [ 0, -90, 25 ],
-      "translation": [ 1.13, 3.2, 1.13],
-      "scale": [ 0.68, 0.68, 0.68 ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [ 0, 90, -25 ],
-      "translation": [ 1.13, 3.2, 1.13],
-      "scale": [ 0.68, 0.68, 0.68 ]
-    }
-  }
+      "overrides": [
+            {
+                  "predicate": {
+                        "pull": 0,
+                        "pulling": 1
+                  },
+                  "textures": {
+                        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
+                        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
+                        "layer2": "tinkersarsenal:items/boomstick/bayonet"
+                  },
+                  "display": {
+                        "firstperson_righthand": {
+                              "rotation": [
+                                    0,
+                                    0,
+                                    25
+                              ],
+                              "translation": [
+                                    1.13,
+                                    2.2,
+                                    1.13
+                              ],
+                              "scale": [
+                                    0.68,
+                                    0.68,
+                                    0.68
+                              ]
+                        },
+                        "firstperson_lefthand": {
+                              "rotation": [
+                                    0,
+                                    0,
+                                    -25
+                              ],
+                              "translation": [
+                                    1.13,
+                                    2.2,
+                                    1.13
+                              ],
+                              "scale": [
+                                    0.68,
+                                    0.68,
+                                    0.68
+                              ]
+                        }
+                  },
+                  "modifier_suffix": "1"
+            },
+            {
+                  "predicate": {
+                        "pull": 0.5,
+                        "pulling": 1
+                  },
+                  "textures": {
+                        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
+                        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
+                        "layer2": "tinkersarsenal:items/boomstick/bayonet"
+                  },
+                  "display": {
+                        "firstperson_righthand": {
+                              "rotation": [
+                                    0,
+                                    0,
+                                    25
+                              ],
+                              "translation": [
+                                    1.13,
+                                    2.2,
+                                    1.13
+                              ],
+                              "scale": [
+                                    0.68,
+                                    0.68,
+                                    0.68
+                              ]
+                        },
+                        "firstperson_lefthand": {
+                              "rotation": [
+                                    0,
+                                    0,
+                                    -25
+                              ],
+                              "translation": [
+                                    1.13,
+                                    2.2,
+                                    1.13
+                              ],
+                              "scale": [
+                                    0.68,
+                                    0.68,
+                                    0.68
+                              ]
+                        }
+                  },
+                  "modifier_suffix": "2"
+            },
+            {
+                  "predicate": {
+                        "pull": 0.999,
+                        "pulling": 1
+                  },
+                  "textures": {
+                        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
+                        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
+                        "layer2": "tinkersarsenal:items/boomstick/bayonet"
+                  },
+                  "display": {
+                        "firstperson_righthand": {
+                              "rotation": [
+                                    0,
+                                    0,
+                                    25
+                              ],
+                              "translation": [
+                                    1.13,
+                                    2.2,
+                                    1.13
+                              ],
+                              "scale": [
+                                    0.68,
+                                    0.68,
+                                    0.68
+                              ]
+                        },
+                        "firstperson_lefthand": {
+                              "rotation": [
+                                    0,
+                                    0,
+                                    -25
+                              ],
+                              "translation": [
+                                    1.13,
+                                    3.2,
+                                    1.13
+                              ],
+                              "scale": [
+                                    0.68,
+                                    0.68,
+                                    0.68
+                              ]
+                        }
+                  },
+                  "modifier_suffix": "3"
+            },
+            {
+                  "predicate": {"loaded": 1},
+                  "textures": {
+                        "layer0": "tinkersarsenal:items/boomstick/boomstick_handle",
+                        "layer1": "tinkersarsenal:items/boomstick/boomstick_barrel",
+                        "layer2": "tinkersarsenal:items/boomstick/bayonet"
+                  },
+                  "display": {
+                        "firstperson_righthand": {
+                              "rotation": [
+                                    0,
+                                    -90,
+                                    25
+                              ],
+                              "translation": [
+                                    1.13,
+                                    2.2,
+                                    1.13
+                              ],
+                              "scale": [
+                                    0.68,
+                                    0.68,
+                                    0.68
+                              ]
+                        },
+                        "thirdperson_lefthand": {
+                              "rotation": [
+                                    -90,
+                                    -260,
+                                    45
+                              ],
+                              "translation": [
+                                    -1,
+                                    2,
+                                    -3
+                              ],
+                              "scale": [
+                                    0.875,
+                                    0.875,
+                                    0.75
+                              ]
+                        },
+                        "firstperson_lefthand": {
+                              "rotation": [
+                                    0,
+                                    90,
+                                    -25
+                              ],
+                              "translation": [
+                                    1.13,
+                                    2.2,
+                                    1.13
+                              ],
+                              "scale": [
+                                    0.68,
+                                    0.68,
+                                    0.68
+                              ]
+                        },
+                        "thirdperson_righthand": {
+                              "rotation": [
+                                    -90,
+                                    260,
+                                    -45
+                              ],
+                              "translation": [
+                                    -1,
+                                    2,
+                                    -3
+                              ],
+                              "scale": [
+                                    0.875,
+                                    0.875,
+                                    0.75
+                              ]
+                        }
+                  },
+                  "modifier_suffix": "3"
+            }
+      ]
 }

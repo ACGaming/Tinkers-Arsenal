@@ -1,6 +1,6 @@
 package io.github.redstoneparadox.tinkersarsenal.events;
 
-import io.github.redstoneparadox.tinkersarsenal.ArsenalProperties;
+import io.github.redstoneparadox.tinkersarsenal.Tags;
 import io.github.redstoneparadox.tinkersarsenal.materials.ArsenalMaterial;
 import io.github.redstoneparadox.tinkersarsenal.misc.ArsenalConfig;
 import net.minecraftforge.common.config.Config;
@@ -14,14 +14,14 @@ import slimeknights.tconstruct.library.materials.Material;
 /**
  * Created by RedstoneParadox on 8/26/2018.
  */
-@Mod.EventBusSubscriber(modid = ArsenalProperties.MOD_ID)
+@Mod.EventBusSubscriber(modid = Tags.MOD_ID)
 public class ArsenalRegistryEvents {
     @SubscribeEvent
     public void onConfigChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
     {
-        if (event.getModID().equals(ArsenalProperties.MOD_ID))
+        if (event.getModID().equals(Tags.MOD_ID))
         {
-            ConfigManager.sync(ArsenalProperties.MOD_ID, Config.Type.INSTANCE);
+            ConfigManager.sync(Tags.MOD_ID, Config.Type.INSTANCE);
         }
     }
 

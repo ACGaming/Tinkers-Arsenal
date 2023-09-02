@@ -2,6 +2,8 @@ package io.github.redstoneparadox.tinkersarsenal.tools.ranged;
 
 import io.github.redstoneparadox.tinkersarsenal.entities.EntityBoomstickShot;
 import io.github.redstoneparadox.tinkersarsenal.tools.ArsenalTools;
+import java.util.List;
+import javax.annotation.Nonnull;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -15,9 +17,6 @@ import slimeknights.tconstruct.library.tinkering.PartMaterialType;
 import slimeknights.tconstruct.library.tools.ProjectileNBT;
 import slimeknights.tconstruct.library.tools.ranged.ProjectileCore;
 import slimeknights.tconstruct.tools.TinkerMaterials;
-
-import javax.annotation.Nonnull;
-import java.util.List;
 
 /**
  * Created by RedstoneParadox on 8/3/2018.

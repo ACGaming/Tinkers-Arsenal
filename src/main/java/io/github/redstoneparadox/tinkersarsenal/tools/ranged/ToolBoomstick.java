@@ -3,6 +3,9 @@ package io.github.redstoneparadox.tinkersarsenal.tools.ranged;
 import com.google.common.collect.ImmutableList;
 import io.github.redstoneparadox.tinkersarsenal.misc.ArsenalSounds;
 import io.github.redstoneparadox.tinkersarsenal.tools.ArsenalTools;
+import java.util.List;
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -27,10 +30,6 @@ import slimeknights.tconstruct.library.tools.ProjectileLauncherNBT;
 import slimeknights.tconstruct.library.tools.ranged.BowCore;
 import slimeknights.tconstruct.library.utils.TagUtil;
 import slimeknights.tconstruct.library.utils.ToolHelper;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-import java.util.List;
 
 /**
  * Created by RedstoneParadox on 7/31/2018.

@@ -1,16 +1,15 @@
 package io.github.redstoneparadox.tinkersarsenal.misc;
 
-import io.github.redstoneparadox.tinkersarsenal.ArsenalProperties;
+import io.github.redstoneparadox.tinkersarsenal.Tags;
 import io.github.redstoneparadox.tinkersarsenal.TinkersArsenal;
-import net.minecraftforge.common.config.Config;
-
 import java.util.HashMap;
 import java.util.Map;
+import net.minecraftforge.common.config.Config;
 
 /**
  * Created by RedstoneParadox on 8/23/2018.
  */
-@Config(modid = ArsenalProperties.MOD_ID, type = Config.Type.INSTANCE, name = "TinkersArsenal")
+@Config(modid = Tags.MOD_ID, type = Config.Type.INSTANCE, name = "TinkersArsenal")
 public class ArsenalConfig {
     //Misc:
     @Config.Ignore

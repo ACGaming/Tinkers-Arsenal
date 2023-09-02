@@ -1,6 +1,6 @@
 package io.github.redstoneparadox.tinkersarsenal.misc;
 
-import io.github.redstoneparadox.tinkersarsenal.ArsenalProperties;
+import io.github.redstoneparadox.tinkersarsenal.Tags;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.network.play.server.SPacketSoundEffect;
@@ -15,12 +15,12 @@ import slimeknights.tconstruct.common.TinkerNetwork;
 /**
  * Created by RedstoneParadox on 8/3/2018.
  */
-@Mod.EventBusSubscriber(modid = ArsenalProperties.MOD_ID)
+@Mod.EventBusSubscriber(modid = Tags.MOD_ID)
 public class ArsenalSounds {
     public static final SoundEvent BOOMSTICK_SHOT = sound("boomstick_shot");
 
     private static SoundEvent sound(String name) {
-        ResourceLocation location = new ResourceLocation(ArsenalProperties.MOD_ID + ":" + name);
+        ResourceLocation location = new ResourceLocation(Tags.MOD_ID + ":" + name);
         SoundEvent event = new SoundEvent(location);
         event.setRegistryName(location);
         return event;
