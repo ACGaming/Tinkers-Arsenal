@@ -63,7 +63,7 @@ public class ArsenalToolMaterials {
             setCraftability(tin, "ingotTin", TinkerFluids.tin);
             tin.addTrait(TinkerTraits.cheap);
             addStats(tin, 85, 4.50f, 4.00f, HV1FE, 0.5f, -25, 75, 0.5f, 1.5f, 1.5f);
-            tin.setRepresentativeItem(OreDictionary.getOres("ingotTin").get(0));
+            tin.setRepresentativeItem("ingotTin");
             TinkerRegistry.addMaterial(tin);
         }
 
@@ -73,6 +73,7 @@ public class ArsenalToolMaterials {
             aluminum.addTrait(TinkerTraits.lightweight, PART_HEAD);
             addTraits(aluminum, TinkerTraits.lightweight);
             addStats(aluminum, 150, 10, 4.00f, HV1FE, 0.5f, -75, 50, 0.5f, 1.5f, 1.75f);
+            aluminum.setRepresentativeItem("ingotAluminum");
             TinkerRegistry.addMaterial(aluminum);
         }
 
@@ -86,12 +87,13 @@ public class ArsenalToolMaterials {
             TinkerRegistry.addMaterial(constantan);
         }
 
-        if (isRegistrable("nickel") && OreDictionary.doesOreNameExist("ingotNickle")) {
+        if (isRegistrable("nickel") && OreDictionary.doesOreNameExist("ingotNickel")) {
             ArsenalMaterial nickel = new ArsenalMaterial("nickel", 0xF6F8BD);
             setCraftability(nickel, "ingotNickel");
             addTraits(nickel, ArsenalToolTraits.MISSINGNO);
             addStats(nickel, 100, 6.5f, 5.5f, HV2DIA, 1.3f, 100, 200, 0.5f, 1.5f, 1.75f);
-            //TinkerRegistry.addMaterial(nickel);
+            nickel.setRepresentativeItem("ingotNickel");
+            TinkerRegistry.addMaterial(nickel);
         }
 
         if (isRegistrable("platinum") && OreDictionary.doesOreNameExist("ingotPlatinum")) {
@@ -99,8 +101,8 @@ public class ArsenalToolMaterials {
             setCraftability(platinum, "ingotPlatinum");
             addTraits(platinum, ArsenalToolTraits.MISSINGNO);
             addStats(platinum, 650, 9, 6.50f, HV4CO, 1.6f, 250, 750, 0.5f, 1.5f, 1.75f);
-            platinum.setRepresentativeItem(OreDictionary.getOres("ingotPlatinum").get(0));
-            //TinkerRegistry.addMaterial(platinum);
+            platinum.setRepresentativeItem("ingotPlatinum");
+            TinkerRegistry.addMaterial(platinum);
         }
 
         if (isRegistrable("iridium") && OreDictionary.doesOreNameExist("ingotIridium")) {
@@ -114,12 +116,13 @@ public class ArsenalToolMaterials {
             TinkerRegistry.addMaterial(iridium);
         }
 
-        if (isRegistrable("mithril") && OreDictionary.doesOreNameExist("ingotMithril")) {
+        /*if (isRegistrable("mithril") && OreDictionary.doesOreNameExist("ingotMithril")) {
             ArsenalMaterial mithril = new ArsenalMaterial("mithril", 0x6DA7C9);
             setCraftability(mithril, "ingotMithril");
             addTraits(mithril, ArsenalToolTraits.MISSINGNO);
-            //TinkerRegistry.addMaterial(mithril);
-        }
+            mithril.setRepresentativeItem("ingotMithril");
+            TinkerRegistry.addMaterial(mithril);
+        }*/
 
         if (isRegistrable("invar") && OreDictionary.doesOreNameExist("ingotInvar")) {
             ArsenalMaterial invar = new ArsenalMaterial("invar", 0xB4BCB9);
@@ -127,7 +130,7 @@ public class ArsenalToolMaterials {
             invar.addTrait(ArsenalToolTraits.ENDURING, PART_HEAD);
             addTraits(invar, ArsenalToolTraits.ENDURING);
             addStats(invar, 175, 6.50f, 5.50f, HV2DIA, 1.5f, 50, 250, 0.5f, 1.5f, 1.75f);
-            invar.setRepresentativeItem(OreDictionary.getOres("ingotInvar").get(0));
+            invar.setRepresentativeItem("ingotInvar");
             TinkerRegistry.addMaterial(invar);
         }
 

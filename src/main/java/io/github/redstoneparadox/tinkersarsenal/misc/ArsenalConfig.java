@@ -61,17 +61,17 @@ public class ArsenalConfig {
         @Config.Comment({disableText + "Constantan."})
         public boolean constantan = true;
         @Config.RequiresMcRestart
-        @Config.Comment({disableText + "Nickel." + notImp})
+        @Config.Comment({disableText + "Nickel."})
         public boolean nickel = true;
         @Config.RequiresMcRestart
-        @Config.Comment({disableText + "Platinum." + notImp})
+        @Config.Comment({disableText + "Platinum."})
         public boolean platinum = true;
         @Config.RequiresMcRestart
         @Config.Comment({disableText + "Iridium."})
         public boolean iridium = true;
         @Config.RequiresMcRestart
         @Config.Comment({disableText + "Mithril/Mana Infused Metal." + notImp})
-        public boolean mithril = true;
+        public boolean mithril = false;
         @Config.RequiresMcRestart
         @Config.Comment({disableText + "Invar."})
         public boolean invar = true;
@@ -80,13 +80,13 @@ public class ArsenalConfig {
     public static class ThermalExpansionCategory {
         @Config.RequiresMcRestart
         @Config.Comment({disableText + "Luminum." + notImp})
-        public boolean luminum = true;
+        public boolean luminum = false;
         @Config.RequiresMcRestart
         @Config.Comment({disableText + "Signalium." + notImp})
-        public boolean signalium = true;
+        public boolean signalium = false;
         @Config.RequiresMcRestart
         @Config.Comment({disableText + "Enderium." + notImp})
-        public boolean enderium = true;
+        public boolean enderium = false;
         @Config.RequiresMcRestart
         @Config.Comment({disableText + "Blizz Rod" + shaftText})
         public boolean blizz = true;
