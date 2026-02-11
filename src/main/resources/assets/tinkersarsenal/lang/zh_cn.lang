@@ -1,0 +1,85 @@
+#Config Categories:
+category.misc.name=杂项设置
+category.base.name=匠魂军械库材料
+category.ore.name=矿物辞典材料
+category.foundation.name=热力基础材料
+
+#Config Tooltips:
+
+config.disable.text=设置为fales以禁用
+
+#Toolparts
+
+item.boomstick_barrel.name=火枪枪管
+item.boomstick_handle.name=火枪手柄
+item.bayonet.name=刺刀
+item.bullet.name=弹头
+item.bullet_shell.name=弹壳
+
+#Tools
+
+item.boomstick.name=火枪
+item.boomstick.desc=火枪是一种具有强力射击功能的枪。它在开火前必须提前长按右键来上膛，在上膛后你可以在任何时候使用它。开枪需要准备好火枪子弹和火药。
+item.boomstick_shot.name=火枪子弹
+item.boomstick_shot.desc=火枪子弹（还需要火药）是火枪的弹药。一个火枪子弹能使用好多次，并且它可以像普通工具一样被强化。
+item.toolshears.name=剪刀
+item.toolshears.desc=剪刀可以帮助你修剪羊身上的羊毛或者树上的树叶。
+
+#Materials
+
+material.diamond.name=钻石
+material.gold.name=金
+material.gold.prefix=金质%s
+
+#Ore Dictionary Materials:
+
+material.tin.name=锡
+material.aluminum.name=铝
+material.constantan.name=康铜
+material.nickel.name=镍
+material.platinum.name=铂
+material.iridium.name=铱
+material.mithril.name=蕴魔秘银
+material.invar.name=殷钢
+
+# Thermal Expansion Materials
+
+material.blizz_rod.name=暴雪棒
+material.blitz_rod.name=狂风棒
+material.basalz_rod.name=岩石棒
+
+#Tool Traits
+
+modifier.diamond_edge.name=钻石边刃
+modifier.diamond_edge.desc=§o好锋利啊！§r\n如果你能用正确的角度去击打，它将更容易地刺穿护甲。
+modifier.enduring.name=持久
+modifier.enduring.desc=§o耐久马拉松！r\n当你长时间使用时，工具的耐久损耗会降低。
+modifier.grounding.name=稳固
+modifier.grounding.desc=§o脚踏实地！§r\n在攻击后减缓敌人的移动速度
+modifier.hard_hitting.name=重击
+modifier.hard_hitting.desc=§o沉重一击！§r\n毫不留情。
+modifier.malleable.name=可塑
+modifier.malleable.desc=§o更多的可塑 = 更多的强化槽！r\n它感觉就像因为太懒而直接复制其他材料一样...
+modifier.missingno.name=错误编号!
+modifier.missingno.desc=§o并非错误...§r\n...只是个占位符。
+modifier.resilience.name=弹性
+modifier.resilience.desc=o极其坚韧！§r\n工具将会变得更坚韧。
+modifier.swift_flight.name=迅翔
+modifier.swift_flight.desc=§o似鸟般翱翔！§r\n相较其他投掷物，移动速度更快。
+modifier.thermally_active.name=受热活化
+modifier.thermally_active.desc=§o感受炽热！§r\n锻造残留的热量仍留存于这件工具之中。
+
+#Armor Traits
+
+modifier.anti_corrosive_armor.name=防腐
+modifier.anti_corrosive_armor.desc=§o简直是剧毒的对立面！§r\n能够抵御腐蚀类型的药水效果...
+modifier.crumpling_armor.name=缓冲
+modifier.crumpling_armor.desc=§o吸收冲击！§r\n减少你受到的伤害，但护甲损耗会更高。
+modifier.enduring_armor.name=持久
+modifier.enduring_armor.desc=§o耐久马拉松！§r\n长时间连续受损时，护甲损耗会降低。
+modifier.fire_resistance_armor.name=耐火
+modifier.fire_resistance_armor.desc=§o别让我燃起来！§r\n专为不小心身陷火海的你准备。
+modifier.resilience_armor.name=弹性
+modifier.resilience_armor.desc=§o韧上加韧！§r\n这件护甲拥有极强的韧性。
+modifier.rigidity_armor.name=刚性
+modifier.rigidity_armor.desc=§o没那么容易被抓开……§r\n试着别发痒！
